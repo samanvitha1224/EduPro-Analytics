@@ -1,3 +1,5 @@
+## 🌐 Live Dashboard
+https://EduPro-Analytics.streamlit.app
 # 📊 EduPro Instructor & Course Quality Analysis
 
 ## 🚀 Project Overview

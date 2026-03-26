@@ -1,10 +1,9 @@
 import pandas as pd
 
 def load_data():
-    teachers = pd.read_csv("data/teachers.csv")
-    courses = pd.read_csv("data/courses.csv")
-    transactions = pd.read_csv("data/transactions.csv")
-
+    teachers = pd.read_csv("data/Teachers.csv")
+    courses = pd.read_csv("data/Courses.csv")
+    transactions = pd.read_csv("data/Transactions.csv")
     # Merge datasets
     df = transactions.merge(teachers, on="TeacherID")
     df = df.merge(courses, on="CourseID")
